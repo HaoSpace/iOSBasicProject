@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            .font { font-size: 36 pt }
+        </style>
+        <script language="javascript">
+            function bnClick() {
+                //取得輸入資料
+                var text = document.getElementById("text").value;
+                
+                window.webkit.messageHandlers.Test.postMessage(text);
+            }
+        
+            function setLableTitle(title) {
+                alert(title)
+                var label = document.getElementById("label");
+                label.innerHTML = title;
+            }
+        </script>
+    </head>
+    
+    <body>
+        <!-- 文字匡 -->
+        <div><input id="text" type="text" class="font"/></div><p/>
+        <!-- 按鈕 -->
+        <div><input type="button" class="font" value="Button" onClick="bnClick()"/></div><p/>
+        <!-- 標籤 -->
+        <div id="label" class="font"></div>
+    </body>
+    
+</html>

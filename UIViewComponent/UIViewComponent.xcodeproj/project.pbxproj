@@ -13,6 +13,12 @@
 		99BBB97626258EE200EB8F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB97426258EE200EB8F3D /* Main.storyboard */; };
 		99BBB97826258EE400EB8F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB97726258EE400EB8F3D /* Assets.xcassets */; };
 		99BBB97B26258EE400EB8F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB97926258EE400EB8F3D /* LaunchScreen.storyboard */; };
+		99BBB9842625A34200EB8F3D /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB9832625A34200EB8F3D /* File.rtf */; };
+		99BBB9872626E2E000EB8F3D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB9862626E2DF00EB8F3D /* MyViewController.swift */; };
+		99BBB98B2626E7FF00EB8F3D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BBB98A2626E7FE00EB8F3D /* WebKit.framework */; };
+		99BBB9902626EE9D00EB8F3D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB98F2626EE9D00EB8F3D /* index.html */; };
+		99BBB9932626F39100EB8F3D /* MySecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB9922626F39100EB8F3D /* MySecViewController.swift */; };
+		99BBB9962627F10900EB8F3D /* MyThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB9952627F10900EB8F3D /* MyThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		99BBB97726258EE400EB8F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BBB97A26258EE400EB8F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BBB97C26258EE400EB8F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BBB9832625A34200EB8F3D /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		99BBB9862626E2DF00EB8F3D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		99BBB98A2626E7FE00EB8F3D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		99BBB98F2626EE9D00EB8F3D /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		99BBB9922626F39100EB8F3D /* MySecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecViewController.swift; sourceTree = "<group>"; };
+		99BBB9952627F10900EB8F3D /* MyThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BBB98B2626E7FF00EB8F3D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,7 @@
 			children = (
 				99BBB96D26258EE200EB8F3D /* UIViewComponent */,
 				99BBB96C26258EE200EB8F3D /* Products */,
+				99BBB9892626E7FE00EB8F3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +77,21 @@
 				99BBB97726258EE400EB8F3D /* Assets.xcassets */,
 				99BBB97926258EE400EB8F3D /* LaunchScreen.storyboard */,
 				99BBB97C26258EE400EB8F3D /* Info.plist */,
+				99BBB9832625A34200EB8F3D /* File.rtf */,
+				99BBB9862626E2DF00EB8F3D /* MyViewController.swift */,
+				99BBB98F2626EE9D00EB8F3D /* index.html */,
+				99BBB9922626F39100EB8F3D /* MySecViewController.swift */,
+				99BBB9952627F10900EB8F3D /* MyThirdViewController.swift */,
 			);
 			path = UIViewComponent;
+			sourceTree = "<group>";
+		};
+		99BBB9892626E7FE00EB8F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99BBB98A2626E7FE00EB8F3D /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BBB9902626EE9D00EB8F3D /* index.html in Resources */,
 				99BBB97B26258EE400EB8F3D /* LaunchScreen.storyboard in Resources */,
 				99BBB97826258EE400EB8F3D /* Assets.xcassets in Resources */,
+				99BBB9842625A34200EB8F3D /* File.rtf in Resources */,
 				99BBB97626258EE200EB8F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BBB97326258EE200EB8F3D /* ViewController.swift in Sources */,
+				99BBB9932626F39100EB8F3D /* MySecViewController.swift in Sources */,
 				99BBB96F26258EE200EB8F3D /* AppDelegate.swift in Sources */,
+				99BBB9872626E2E000EB8F3D /* MyViewController.swift in Sources */,
+				99BBB9962627F10900EB8F3D /* MyThirdViewController.swift in Sources */,
 				99BBB97126258EE200EB8F3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
