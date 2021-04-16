@@ -13,6 +13,8 @@
 		99BBBA542629D16400EB8F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBA522629D16400EB8F3D /* Main.storyboard */; };
 		99BBBA562629D16700EB8F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBA552629D16700EB8F3D /* Assets.xcassets */; };
 		99BBBA592629D16700EB8F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBA572629D16700EB8F3D /* LaunchScreen.storyboard */; };
+		99BBBA642629F35600EB8F3D /* CSG_Coin_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBA632629F35600EB8F3D /* CSG_Coin_01.mp3 */; };
+		99BBBA672629FEF500EB8F3D /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBA662629FEF500EB8F3D /* 1.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		99BBBA552629D16700EB8F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BBBA582629D16700EB8F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BBBA5A2629D16700EB8F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BBBA632629F35600EB8F3D /* CSG_Coin_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CSG_Coin_01.mp3; sourceTree = "<group>"; };
+		99BBBA662629FEF500EB8F3D /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		99BBBA4B2629D16400EB8F3D /* ShotAndMusic */ = {
 			isa = PBXGroup;
 			children = (
+				99BBBA622629F31E00EB8F3D /* Resource */,
 				99BBBA4C2629D16400EB8F3D /* AppDelegate.swift */,
 				99BBBA4E2629D16400EB8F3D /* SceneDelegate.swift */,
 				99BBBA502629D16400EB8F3D /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				99BBBA5A2629D16700EB8F3D /* Info.plist */,
 			);
 			path = ShotAndMusic;
+			sourceTree = "<group>";
+		};
+		99BBBA622629F31E00EB8F3D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				99BBBA662629FEF500EB8F3D /* 1.m4a */,
+				99BBBA632629F35600EB8F3D /* CSG_Coin_01.mp3 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			files = (
 				99BBBA592629D16700EB8F3D /* LaunchScreen.storyboard in Resources */,
 				99BBBA562629D16700EB8F3D /* Assets.xcassets in Resources */,
+				99BBBA672629FEF500EB8F3D /* 1.m4a in Resources */,
+				99BBBA642629F35600EB8F3D /* CSG_Coin_01.mp3 in Resources */,
 				99BBBA542629D16400EB8F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
