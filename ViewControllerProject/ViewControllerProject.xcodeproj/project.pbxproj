@@ -13,6 +13,10 @@
 		99BBB9D3262833AE00EB8F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB9D1262833AE00EB8F3D /* Main.storyboard */; };
 		99BBB9D5262833B100EB8F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB9D4262833B100EB8F3D /* Assets.xcassets */; };
 		99BBB9D8262833B100EB8F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB9D6262833B100EB8F3D /* LaunchScreen.storyboard */; };
+		99BBB9E1262883D100EB8F3D /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB9E0262883D100EB8F3D /* myTabBarController.swift */; };
+		99BBB9E426288F7F00EB8F3D /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB9E326288F7F00EB8F3D /* MyTableViewController.swift */; };
+		99BBB9E726289A4400EB8F3D /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB9E626289A4400EB8F3D /* MyPageViewController.swift */; };
+		99BBB9EC2629537400EB8F3D /* testMov.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 99BBB9EB2629537400EB8F3D /* testMov.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		99BBB9D4262833B100EB8F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BBB9D7262833B100EB8F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BBB9D9262833B100EB8F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BBB9E0262883D100EB8F3D /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
+		99BBB9E326288F7F00EB8F3D /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		99BBB9E626289A4400EB8F3D /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		99BBB9EB2629537400EB8F3D /* testMov.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testMov.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		99BBB9CA262833AE00EB8F3D /* ViewControllerProject */ = {
 			isa = PBXGroup;
 			children = (
+				99BBB9E92629535800EB8F3D /* Resource */,
 				99BBB9CB262833AE00EB8F3D /* AppDelegate.swift */,
 				99BBB9CD262833AE00EB8F3D /* SceneDelegate.swift */,
 				99BBB9CF262833AE00EB8F3D /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				99BBB9D4262833B100EB8F3D /* Assets.xcassets */,
 				99BBB9D6262833B100EB8F3D /* LaunchScreen.storyboard */,
 				99BBB9D9262833B100EB8F3D /* Info.plist */,
+				99BBB9E0262883D100EB8F3D /* myTabBarController.swift */,
+				99BBB9E326288F7F00EB8F3D /* MyTableViewController.swift */,
+				99BBB9E626289A4400EB8F3D /* MyPageViewController.swift */,
 			);
 			path = ViewControllerProject;
+			sourceTree = "<group>";
+		};
+		99BBB9E92629535800EB8F3D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				99BBB9EB2629537400EB8F3D /* testMov.mp4 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BBB9D8262833B100EB8F3D /* LaunchScreen.storyboard in Resources */,
+				99BBB9EC2629537400EB8F3D /* testMov.mp4 in Resources */,
 				99BBB9D5262833B100EB8F3D /* Assets.xcassets in Resources */,
 				99BBB9D3262833AE00EB8F3D /* Main.storyboard in Resources */,
 			);
@@ -138,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BBB9D0262833AE00EB8F3D /* ViewController.swift in Sources */,
+				99BBB9E726289A4400EB8F3D /* MyPageViewController.swift in Sources */,
+				99BBB9E1262883D100EB8F3D /* myTabBarController.swift in Sources */,
 				99BBB9CC262833AE00EB8F3D /* AppDelegate.swift in Sources */,
+				99BBB9E426288F7F00EB8F3D /* MyTableViewController.swift in Sources */,
 				99BBB9CE262833AE00EB8F3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
