@@ -13,6 +13,7 @@
 		99BBBAC3262ADE5900EB8F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBAC1262ADE5900EB8F3D /* Main.storyboard */; };
 		99BBBAC5262ADE5B00EB8F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBAC4262ADE5B00EB8F3D /* Assets.xcassets */; };
 		99BBBAC8262ADE5B00EB8F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BBBAC6262ADE5B00EB8F3D /* LaunchScreen.storyboard */; };
+		99BBBAD1262ADED000EB8F3D /* MyCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBBAD0262ADED000EB8F3D /* MyCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		99BBBAC4262ADE5B00EB8F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BBBAC7262ADE5B00EB8F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BBBAC9262ADE5B00EB8F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BBBAD0262ADED000EB8F3D /* MyCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				99BBBAC4262ADE5B00EB8F3D /* Assets.xcassets */,
 				99BBBAC6262ADE5B00EB8F3D /* LaunchScreen.storyboard */,
 				99BBBAC9262ADE5B00EB8F3D /* Info.plist */,
+				99BBBAD0262ADED000EB8F3D /* MyCanvas.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				99BBBAC0262ADE5900EB8F3D /* ViewController.swift in Sources */,
 				99BBBABC262ADE5900EB8F3D /* AppDelegate.swift in Sources */,
 				99BBBABE262ADE5900EB8F3D /* SceneDelegate.swift in Sources */,
+				99BBBAD1262ADED000EB8F3D /* MyCanvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7PL9FSFP7H;
+				DEVELOPMENT_TEAM = L58X2W6A8Z;
 				INFOPLIST_FILE = Drawing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7PL9FSFP7H;
+				DEVELOPMENT_TEAM = L58X2W6A8Z;
 				INFOPLIST_FILE = Drawing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
