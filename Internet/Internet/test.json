@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Kirk",
+        "Age": 41,
+        "Phone":
+        {
+            "Office": "none",
+            "Home": "1111"
+        }
+    },
+    {
+        "Name": "Sonia",
+        "Age": 35,
+        "Phone":
+        {
+            "Office": "2222",
+            "Home": "3333"
+        }
+    }
+]

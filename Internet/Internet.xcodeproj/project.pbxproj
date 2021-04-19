@@ -13,6 +13,8 @@
 		996CEE54262C00C6004849D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996CEE52262C00C6004849D0 /* Main.storyboard */; };
 		996CEE56262C00C8004849D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996CEE55262C00C8004849D0 /* Assets.xcassets */; };
 		996CEE59262C00C8004849D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996CEE57262C00C8004849D0 /* LaunchScreen.storyboard */; };
+		996CEE62262D309E004849D0 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 996CEE61262D309E004849D0 /* test.xml */; };
+		996CEE65262D3F24004849D0 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 996CEE64262D3F24004849D0 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		996CEE55262C00C8004849D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996CEE58262C00C8004849D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996CEE5A262C00C8004849D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996CEE61262D309E004849D0 /* test.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		996CEE64262D3F24004849D0 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				996CEE55262C00C8004849D0 /* Assets.xcassets */,
 				996CEE57262C00C8004849D0 /* LaunchScreen.storyboard */,
 				996CEE5A262C00C8004849D0 /* Info.plist */,
+				996CEE61262D309E004849D0 /* test.xml */,
+				996CEE64262D3F24004849D0 /* test.json */,
 			);
 			path = Internet;
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			files = (
 				996CEE59262C00C8004849D0 /* LaunchScreen.storyboard in Resources */,
 				996CEE56262C00C8004849D0 /* Assets.xcassets in Resources */,
+				996CEE65262D3F24004849D0 /* test.json in Resources */,
 				996CEE54262C00C6004849D0 /* Main.storyboard in Resources */,
+				996CEE62262D309E004849D0 /* test.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
